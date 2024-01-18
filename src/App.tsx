@@ -1,9 +1,11 @@
 import Lottie from "lottie-react";
 import MaintenanceAnimation from "./assets/maintenance.json";
 import { data } from "./lib/data";
+import Background from "./components/Background";
 function App() {
   return (
     <main className="grid grid-cols-10  md:gap-4 min-h-screen">
+      <Background />
       <div className="flex justify-center items-center col-span-full md:col-span-3">
         <Lottie
           animationData={MaintenanceAnimation}
